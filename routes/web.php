@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', [ProfilController::class,'index']);
-Route::get('/about', [ProfilController::class,'about']);
-Route::get('/store', [ProfilController::class,'store']);
-Route::get('/product', [ProfilController::class,'product']);
+Route::get('/', [ProfilController::class,'index'])-> name("home");
+Route::get('/about', [ProfilController::class,'about'])-> name("about");
+Route::get('/store', [ProfilController::class,'store'])-> name("store");
+Route::get('/product', [ProfilController::class,'product'])-> name("product");
 
