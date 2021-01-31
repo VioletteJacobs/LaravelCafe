@@ -16,7 +16,6 @@ class StoreController extends Controller
             (object)['jour'=>"Friday", 'heure'=>"7:00 AM to 8:00 PM"],
             (object)['jour'=>"Saturday", 'heure'=>"9:00 AM to 5:00 PM"]
         ];
-        $i =0;
-        return view('pages.store',compact('horaire','i'));
+        return view('pages.store',compact('horaire'));
     }
 }
