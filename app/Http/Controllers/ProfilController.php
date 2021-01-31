@@ -13,11 +13,4 @@ class ProfilController extends Controller
         ];
         return view('welcome', compact('contenu'));
     }
-    public function about(){
-        return view('pages.about');
-    }
-    public function product(){
-        return view('pages.product');
-    }
-    //
 }
