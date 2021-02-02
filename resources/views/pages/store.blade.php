@@ -9,7 +9,7 @@
               <span class="section-heading-upper">Come On In</span>
               <span class="section-heading-lower">We're Open</span>
             </h2>
-            @foreach ($horaire as $item)
+            @foreach ($database4 as $item)
             <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
               <li class="list-unstyled-item list-hours-item d-flex">
                 {{$item -> jour}}
