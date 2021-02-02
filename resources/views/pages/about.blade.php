@@ -8,11 +8,11 @@
           <div class="col-xl-9 col-lg-10 mx-auto">
             <div class="bg-faded rounded p-5">
               <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">{{$contenu[0] -> sousTitre}}</span>
-                <span class="section-heading-lower">{{$contenu[0] -> titre}}</span>
+                <span class="section-heading-upper">{{$database2[0] -> sousTitre}}</span>
+                <span class="section-heading-lower">{{$database2[0] -> titre}}</span>
               </h2>
-              <p>{{$contenu[0] -> para}}</p>
-              <p class="mb-0">{{$contenu[0] -> para2}}</p>
+              <p>{{$database2[0] -> para}}</p>
+              <p class="mb-0">{{$database2[0] -> para2}}</p>
             </div>
           </div>
         </div>

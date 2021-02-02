@@ -6,15 +6,15 @@
         <div class="product-item-title d-flex">
           <div class="bg-faded p-5 d-flex ml-auto rounded">
             <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">{{$contenu[0] -> sousTitre}}</span>
-              <span class="section-heading-lower">{{$contenu[0] -> titre}}</span>
+              <span class="section-heading-upper">{{$database3[0] -> sousTitre}}</span>
+              <span class="section-heading-lower">{{$database3[0] -> titre}}</span>
             </h2>
           </div>
         </div>
         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-01.jpg" alt="">
         <div class="product-item-description d-flex mr-auto">
           <div class="bg-faded p-5 rounded">
-            <p class="mb-0">{{$contenu[0] -> para}}</p>
+            <p class="mb-0">{{$database3[0] -> para}}</p>
           </div>
         </div>
       </div>
@@ -27,15 +27,15 @@
         <div class="product-item-title d-flex">
           <div class="bg-faded p-5 d-flex mr-auto rounded">
             <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">{{$contenu[1] -> sousTitre}}</span>
-              <span class="section-heading-lower">{{$contenu[1] -> titre}}</span>
+              <span class="section-heading-upper">{{$database3[1] -> sousTitre}}</span>
+              <span class="section-heading-lower">{{$database3[1] -> titre}}</span>
             </h2>
           </div>
         </div>
         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-02.jpg" alt="">
         <div class="product-item-description d-flex ml-auto">
           <div class="bg-faded p-5 rounded">
-            <p class="mb-0">{{$contenu[1] -> para}}</p>
+            <p class="mb-0">{{$database3[1] -> para}}</p>
           </div>
         </div>
       </div>
@@ -48,15 +48,15 @@
         <div class="product-item-title d-flex">
           <div class="bg-faded p-5 d-flex ml-auto rounded">
             <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">{{$contenu[2] -> sousTitre}}</span>
-              <span class="section-heading-lower">{{$contenu[2] -> titre}}</span>
+              <span class="section-heading-upper">{{$database3[2] -> sousTitre}}</span>
+              <span class="section-heading-lower">{{$database3[2] -> titre}}</span>
             </h2>
           </div>
         </div>
         <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-03.jpg" alt="">
         <div class="product-item-description d-flex mr-auto">
           <div class="bg-faded p-5 rounded">
-            <p class="mb-0">{{$contenu[2] -> para}}</p>
+            <p class="mb-0">{{$database3[2] -> para}}</p>
           </div>
         </div>
       </div>
